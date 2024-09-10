@@ -19,7 +19,7 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.1
 asdf plugin list all | grep python
 asdf plugin add python https://github.com/danhper/asdf-python.git
 asdf install python 3.10.12
-asdf global 3.10.12
+asdf global python 3.10.12
 python --version
 ```
 
