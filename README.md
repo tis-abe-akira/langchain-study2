@@ -4,6 +4,14 @@
 
 https://asdf-vm.com/guide/getting-started.html#_1-install-dependencies
 
+```
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.1
+
+# edit ~/.bashrc
+. "$HOME/.asdf/asdf.sh"
+
+```
+
 
 ## pythonのインストール（済んでいます）
 
