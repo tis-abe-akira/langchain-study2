@@ -16,7 +16,7 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.1
 ## pythonのインストール
 
 ```
-sudo yum install libffi-devel
+sudo yum -y install libffi-devel
 asdf plugin list all | grep python
 asdf plugin add python https://github.com/danhper/asdf-python.git
 asdf install python 3.10.12
